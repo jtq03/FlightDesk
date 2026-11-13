@@ -91,3 +91,17 @@ def test_address_lookup_runs_on_request_and_caches_results(tmp_path,monkeypatch)
         assert one.status_code==200 and one.json()['results'][0]['latitude']==43.46
         assert c.get('/api/locations/search',params={'q':'Waterloo airport'}).status_code==200
         assert calls==['Waterloo airport']
+
+
+def test_porter_marketing_number_falls_back_to_turboprop_operator():
+    import asyncio
+    from flightdesk.providers.aircraft import AdsbFiProvider
+    async def check():
+        provider=AdsbFiProvider(None);calls=[]
+        async def fake_get(endpoint):
+            calls.append(endpoint)
+            return ['Porter Dash 8'] if endpoint.endswith('PTR442') else []
+        provider.get=fake_get
+        assert await provider.search('PD442')==['Porter Dash 8']
+        assert calls==['v2/callsign/POE442','v2/callsign/PTR442']
+    asyncio.run(check())

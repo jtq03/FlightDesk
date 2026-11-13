@@ -186,7 +186,11 @@ class AdsbFiProvider:
         if not re.fullmatch('[A-Z0-9-]{2,16}', q):
             raise FeedError('Use a flight number, callsign, registration or hex identifier')
         endpoint = 'hex' if re.fullmatch('[0-9A-F]{6}', q) else 'registration' if '-' in q else 'callsign'
-        return await self.get('v2/%s/%s' % (endpoint, q))
+        rows = await self.get('v2/%s/%s' % (endpoint, q))
+        # Porter markets both the POE jet and PTR turboprop operations as PD.
+        if not rows and re.fullmatch(r'PD\d{1,5}[A-Z]?', re.sub(r'\s+', '', query.upper())):
+            rows = await self.get('v2/callsign/PTR' + q[3:])
+        return rows
 
     async def by_id(self, aircraft_id):
         return await self.get('v2/hex/'+aircraft_id)
