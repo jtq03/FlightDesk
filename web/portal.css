@@ -1,0 +1,66 @@
+/* A comfortable phone remote; the desk's print layout remains untouched. */
+body[data-surface=portal]{padding-bottom:env(safe-area-inset-bottom);background:var(--paper)}
+body[data-surface=portal] main{max-width:64rem;padding:calc(.9rem + env(safe-area-inset-top)) .9rem 1.5rem}
+body[data-surface=portal] #desk-chrome{position:static;padding:0;background:none;border:0;box-shadow:none}
+body[data-surface=portal] #desk-chrome header#top{position:static;display:flex;align-items:center;gap:.5rem;margin:0 0 1rem;pointer-events:auto}
+body[data-surface=portal] .brand{background:none;color:var(--ink);padding:0;font-family:Georgia,serif;font-weight:400;letter-spacing:-.07rem;font-size:1.8rem}
+body[data-surface=portal] .toolbar .icon-btn{min-width:3rem;min-height:3rem;font-size:1.35rem;background:var(--card)}
+body[data-surface=portal] .toolbar .icon-btn span{display:none}
+body[data-surface=portal] .pill{padding:.4rem .55rem;font-size:.65rem}
+body[data-surface=portal] .places{display:flex;gap:.5rem;overflow-x:auto;flex-wrap:nowrap;padding-bottom:.3rem;margin:.2rem 0 .6rem;position:static;transform:none}
+body[data-surface=portal] .places button{white-space:nowrap;min-height:3rem;font-size:.85rem}
+body[data-surface=portal] #controls-tray{display:flex!important;flex-direction:column;gap:.75rem;max-height:none;background:none;border:0;padding:0;box-shadow:none}
+body[data-surface=portal] #controls-tray .searchbar{order:0;display:flex!important;margin:0;flex-wrap:nowrap}
+body[data-surface=portal] .searchbar form{min-width:0;flex:1}
+body[data-surface=portal] .searchbar input{min-width:0;font-size:1rem}
+body[data-surface=portal] .searchbar button{min-height:3.2rem;padding:.65rem .9rem}
+body[data-surface=portal] #map-all{display:none}
+body[data-surface=portal] #controls-tray .nearby,body[data-surface=portal] #controls-tray footer{display:none}
+.remote-status{font-size:.78rem;color:var(--muted);padding:.5rem .1rem .7rem;min-height:2rem}
+body[data-surface=portal] #flight-view{height:57dvh;min-height:22rem;max-height:none;gap:.8rem}
+body[data-surface=portal] #flight-view.selected{grid-template-columns:1fr;grid-template-rows:15rem auto;height:auto}
+body[data-surface=portal] #flight-card{min-height:30rem}
+body[data-surface=portal] #card-callsign{font-size:2.6rem}
+body[data-surface=portal] #card-art{height:auto;min-height:7rem}
+body[data-surface=portal] #card-close{width:3rem;height:3rem;min-height:3rem}
+body[data-surface=portal] #card-expand{min-width:4rem;min-height:2.7rem}
+body[data-surface=portal] .map-caption{font-size:.55rem;left:.55rem;top:.55rem;gap:.25rem;max-width:85%;flex-wrap:wrap}
+body[data-surface=portal] .map-caption span{padding:.4rem .5rem}
+body[data-surface=portal] .map-controls button{width:3.3rem;height:3.3rem}
+body[data-surface=portal].art-open #flight-card{min-height:100dvh}
+body[data-surface=portal].art-open #desk-chrome{position:fixed}
+#search-results{margin:0 0 .8rem;padding:.75rem;border:1px solid var(--line);border-radius:1rem;background:var(--card)}
+.search-result{display:flex;gap:.4rem;align-items:center;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.search-result:last-child{border-bottom:0}
+.search-result>div{min-width:0;flex:1}
+.search-result small{display:block;color:var(--muted);font-size:.75rem;margin:.3rem 0}
+.search-result button{padding:.6rem .7rem;min-height:3rem;font-size:.85rem}
+body[data-surface=portal] #settings-dialog{width:min(100%,44rem);max-width:100%;max-height:95dvh;border:0;border-radius:1.2rem 1.2rem 0 0;margin:auto auto 0;padding:1.2rem 1rem calc(1.4rem + env(safe-area-inset-bottom));background:var(--paper);color:var(--ink)}
+body[data-surface=portal] #settings-form{display:block}
+body[data-surface=portal] #settings-dialog h2{font-family:Georgia,serif;font-size:2rem;margin:.2rem 0}
+body[data-surface=portal] #settings-dialog h3{font-size:1.2rem;margin:1.25rem 0 .7rem}
+body[data-surface=portal] #settings-dialog p{line-height:1.55}
+body[data-surface=portal] #settings-dialog label{margin:.75rem 0;font-size:.85rem}
+body[data-surface=portal] #settings-dialog input,body[data-surface=portal] #settings-dialog select{font-size:1rem;min-height:3rem}
+.settings-tabs{display:flex;overflow-x:auto;gap:.4rem;padding:.5rem 0 1rem;position:sticky;top:-1.2rem;background:var(--paper);z-index:3}
+.settings-tabs button{padding:.6rem .8rem;min-height:3rem;border-radius:2rem;background:var(--card);color:var(--ink);border:1px solid var(--line);white-space:nowrap;font-size:.85rem}
+.settings-tabs button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+#save-settings{width:100%;margin-top:1.25rem;min-height:3.3rem}
+.preset-row{display:grid;grid-template-columns:1fr 1fr;gap:0 .6rem;padding:.75rem;border:1px solid var(--line);border-radius:.9rem;margin-bottom:.7rem;background:var(--card)}
+.preset-row label:first-child{grid-column:1/-1}
+.preset-row button{align-self:end;margin-bottom:.75rem}
+.lookup{display:flex;gap:.5rem;flex-wrap:wrap}
+.lookup input{flex:1;min-width:12rem}
+.location-result,.device-row{padding:.8rem;border:1px solid var(--line);border-radius:.8rem;margin:.7rem 0;background:var(--card)}
+.location-result button{font-size:.85rem;margin:.25rem .25rem .25rem 0}
+.device-row{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.art-row{display:grid;grid-template-columns:1fr;gap:.5rem;background:var(--card);border:1px solid var(--line);border-radius:1rem;padding:.8rem;margin:.8rem 0}
+.art-row img{width:100%;height:8rem;object-fit:contain;background:#eee5d1;border-radius:.6rem}
+.art-row strong,.art-row small{display:block;margin:.25rem 0}
+.art-row small{color:var(--muted);font-size:.75rem}
+.upload-button{display:inline-block!important;background:var(--ink);color:var(--paper);padding:.8rem 1rem;border-radius:.65rem;position:relative;overflow:hidden;cursor:pointer}
+.upload-button input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}
+.art-row button{font-size:.85rem;margin-left:.4rem}
+#desk-code{display:block;font-variant-numeric:tabular-nums;font-size:3.6rem;letter-spacing:.35rem;color:var(--ink);margin:1rem 0}
+#desk-portal-url{overflow-wrap:anywhere;font-size:1rem;background:var(--card);padding:.8rem;border-radius:.7rem}
+@media(min-width:48rem){body[data-surface=portal] #flight-view.selected{grid-template-columns:1fr 1fr;grid-template-rows:auto;min-height:36rem}.art-row{grid-template-columns:12rem 1fr}#art-library{max-height:60vh;overflow:auto}}

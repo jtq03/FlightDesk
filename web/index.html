@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f4eee2"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" href="/icon-192.png"><title>Flight Desk</title><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icon.svg" type="image/svg+xml"><script src="/scale.js"></script><link rel="stylesheet" href="/vendor/leaflet.css"><link rel="stylesheet" href="/style.css"><script defer src="/vendor/leaflet.js"></script><script type="module" src="/app.js"></script></head>
+<body>
+<section id="pairing" class="pairing"><div class="pair-card"><span class="eyebrow">A little window to the sky</span><h1>Flight Desk<span>✦</span></h1><p>Enter the six-digit code from your Pi setup screen or development terminal.</p><form id="pair-form"><label>Pairing code<input id="pair-code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" required autocomplete="one-time-code"></label><button>Connect to your desk →</button></form><p id="pair-error" role="alert"></p><small>The same view, on your desk and in your hand.</small></div></section>
+<section id="desk-pairing" class="pairing" hidden><div class="pair-card"><span class="eyebrow">Your desk. In your hand.</span><h1>Let’s pair<span>✦</span></h1><p>On your phone, open:</p><p id="desk-portal-url"></p><p>Enter this code on your phone. Nothing to type here.</p><strong id="desk-code" aria-live="polite">Connecting…</strong><p>Both phones can use this code to connect to the same desk.</p><button id="desk-pair-back" hidden>Back to the sky</button></div></section><main id="app" hidden>
+<header id="top"><button id="controls-toggle" class="brand" aria-expanded="false" aria-controls="controls-tray">flight desk <span>✦</span></button><div class="toolbar"><span id="connection" class="pill">Connecting</span><button id="settings-open" class="icon-btn" aria-label="Open settings">⚙<span class="portal-only"> Settings</span></button></div></header>
+<div class="searchbar portal-only"><form id="search-form"><label class="sr-only" for="query">Search a flight</label><input id="query" placeholder="Find a flight · AC123, WJA610…" maxlength="16" required><button>Find ↗</button></form><button id="map-all" class="ghost">All aircraft</button></div>
+<nav class="places" aria-label="Quick map locations"><button id="place-ykf">✈ Waterloo</button><button id="place-yyz">✈ Pearson</button></nav>
+<section id="flight-view">
+  <div id="map-shell" class="map-shell">
+    <div id="map" aria-label="Aircraft map"></div>
+    <div class="map-caption"><span id="mode">YOUR SKY</span><span id="source"></span></div>
+    <div class="map-controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="map-home" aria-label="Back to all aircraft">⌂</button></div>
+    <div id="message" role="status" aria-live="polite"></div>
+  </div>
+  <aside id="flight-card" hidden>
+    <div class="print">
+      <button id="card-expand" aria-label="Expand flight art" aria-expanded="false">⌃</button><span id="idle-label" hidden>NEAREST IN YOUR SKY</span>
+      <div class="sheet-head"><span id="card-airline" class="eyebrow"></span><button id="card-close" aria-label="Close selected flight">×</button></div>
+      <h1 id="card-callsign"></h1>
+      <p id="card-type" class="type-name"></p>
+      <div id="card-art" class="art"></div>
+      <div id="card-route" class="route" hidden>
+        <div class="ends"><div class="end"><b id="route-from"></b><small id="route-from-city"></small></div><div class="end right"><b id="route-to"></b><small id="route-to-city"></small></div></div>
+        <div id="journey" class="journey"><div class="bar"><i id="route-fill"></i></div><svg id="route-plane" viewBox="0 0 28 29" aria-hidden="true"><path d="M14 1L17 11 26 16 26 19 17 17 17 24 21 26 21 28 14 26 7 28 7 26 11 24 11 17 2 19 2 16 11 11Z" fill="currentColor"/></svg></div>
+        <p id="route-note"></p>
+      </div>
+      <div id="card-data" class="metrics"></div>
+      <div class="actions"><button id="follow">Follow this flight ↗</button></div>
+      <p id="card-status"></p><small class="print-signature">FLIGHT OBSERVATIONS <span>✦</span> <span id="art-data-credit">adsb.fi</span></small>
+    </div>
+  </aside>
+</section>
+<section class="nearby portal-only"><div><span class="eyebrow">Above &amp; around</span><span id="count"></span></div><div id="aircraft-list"></div></section>
+<footer class="portal-only"><span>Shared with your desk</span><span id="pwa-status"></span></footer>
+<section id="quiet-sky" hidden><span class="eyebrow">A little window to the sky</span><h1>A quiet sky.</h1><p>Waiting for a fresh airborne position near home.</p><small>Tap to return to the map</small></section></main>
+<dialog id="settings-dialog"><form id="settings-form"><div class="dialog-title"><h2>Make it yours</h2><button type="button" id="settings-close" aria-label="Close settings">×</button></div><p>Settings and the current flight are shared across your paired screens. Changes save when you close this window.</p><label>Desk name<input name="name" maxlength="40" required></label><div class="row"><label>Theme<select name="theme"><option value="paper">Sunlit paper</option><option value="dusk">Evening sky</option></select></label><label>Units<select name="units"><option value="aviation">ft · knots</option><option value="metric">m · km/h</option></select></label></div><label>Aircraft data<select name="provider"><option value="adsbfi">Live · adsb.fi</option><option value="demo">Demo (testing only)</option></select></label><p class="hint">Live mode needs your map centre; no receiver is required.</p><div class="row"><label>Latitude<input name="latitude" type="number" step="any" min="-90" max="90" placeholder="Not set"></label><label>Longitude<input name="longitude" type="number" step="any" min="-180" max="180" placeholder="Not set"></label></div><div class="row"><label>Range (NM)<input name="radius_nm" type="number" min="1" max="250" required></label><label>Refresh (seconds)<input name="poll_seconds" type="number" min="10" max="120" required></label></div><fieldset><legend>Airline colours</legend><div id="colour-settings"></div><div class="row"><label>Airline ICAO code<input id="new-airline" maxlength="3" placeholder="e.g. AAL"></label><label>Colour<input id="new-colour" type="color" value="#d96b54"></label></div><button id="add-airline" type="button">Add airline colour</button><p class="hint">Use the airline’s three-letter ICAO code; for example ACA for Air Canada, WJA for WestJet or POE for Porter.</p></fieldset><button id="save-settings">Save shared settings</button><p id="settings-error" role="alert"></p></form><section class="rotation"><h3>Display orientation</h3><p>Your choice saves immediately and stays selected until you change it.</p><p id="orientation-status" role="status"></p><div class="rotation-buttons"><button data-angle="0">Portrait ↑</button><button data-angle="90">Landscape →</button><button data-angle="180">Portrait ↓</button><button data-angle="270">Landscape ←</button></div></section><details class="artwork-credits"><summary>Aircraft artwork credits</summary><div id="artwork-credits"></div><p>Type studies are representative drawings, not photos of the actual registration or its livery. Missing types use a labelled aircraft-class illustration or a default aircraft image.</p></details><button id="logout" class="quiet">Unpair this browser</button></dialog>
+</body></html>

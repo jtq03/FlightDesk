@@ -1,0 +1,13 @@
+.venv/
+.state/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env*
+*pairing-code*
+*.sqlite3*
+observer.json
+uploads/
+artwork/
+node_modules/
+.DS_Store

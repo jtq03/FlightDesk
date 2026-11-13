@@ -1,0 +1,546 @@
+{
+  "C172": {
+    "asset": "/media/c172-profile.png",
+    "kind": "illustration",
+    "alt": "Cessna 172S \u2014 artist-drawn aircraft profile",
+    "credit": "Er-Jin Jang \u00b7 CC BY-SA 4.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Cessna_172S.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 960,
+    "height": 356,
+    "bounds": [
+      0,
+      0,
+      960,
+      356
+    ]
+  },
+  "B736": {
+    "asset": "/media/b736-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-600 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 695,
+    "height": 271,
+    "bounds": [
+      0,
+      5,
+      695,
+      266
+    ]
+  },
+  "B737": {
+    "asset": "/media/b737-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-700 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 730,
+    "height": 267,
+    "bounds": [
+      0,
+      0,
+      730,
+      267
+    ]
+  },
+  "B738": {
+    "asset": "/media/b738-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-800 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 850,
+    "height": 261,
+    "bounds": [
+      0,
+      0,
+      850,
+      261
+    ]
+  },
+  "B739": {
+    "asset": "/media/b739-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-900 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 930,
+    "height": 264,
+    "bounds": [
+      0,
+      0,
+      930,
+      264
+    ]
+  },
+  "B731": {
+    "asset": "/media/b731-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-100 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 632,
+    "height": 267,
+    "bounds": [
+      0,
+      17,
+      632,
+      250
+    ]
+  },
+  "B732": {
+    "asset": "/media/b732-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-200 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 687,
+    "height": 257,
+    "bounds": [
+      0,
+      7,
+      687,
+      250
+    ]
+  },
+  "B733": {
+    "asset": "/media/b733-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-300 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 742,
+    "height": 250,
+    "bounds": [
+      0,
+      0,
+      742,
+      250
+    ]
+  },
+  "B734": {
+    "asset": "/media/b734-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-400 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 802,
+    "height": 249,
+    "bounds": [
+      0,
+      0,
+      802,
+      249
+    ]
+  },
+  "B735": {
+    "asset": "/media/b735-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 737-500 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 702,
+    "height": 244,
+    "bounds": [
+      0,
+      0,
+      702,
+      244
+    ]
+  },
+  "A318": {
+    "asset": "/media/a318-profile.png",
+    "kind": "illustration",
+    "alt": "Airbus A318 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A32X_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 683,
+    "height": 274,
+    "bounds": [
+      0,
+      0,
+      683,
+      274
+    ]
+  },
+  "A319": {
+    "asset": "/media/a319-profile.png",
+    "kind": "illustration",
+    "alt": "Airbus A319 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A32X_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 732,
+    "height": 257,
+    "bounds": [
+      0,
+      0,
+      732,
+      257
+    ]
+  },
+  "A320": {
+    "asset": "/media/a320-profile.png",
+    "kind": "illustration",
+    "alt": "Airbus A320 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A32X_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 813,
+    "height": 256,
+    "bounds": [
+      0,
+      0,
+      813,
+      256
+    ]
+  },
+  "A321": {
+    "asset": "/media/a321-profile.png",
+    "kind": "illustration",
+    "alt": "Airbus A321 \u2014 artist-drawn aircraft profile",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A32X_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Type illustration; not the actual aircraft registration or airline livery.",
+    "width": 961,
+    "height": 255,
+    "bounds": [
+      0,
+      0,
+      961,
+      255
+    ]
+  },
+  "class_single_high": {
+    "asset": "/media/c172-profile.png",
+    "kind": "illustration",
+    "alt": "Representative high-wing light aircraft illustration; not the exact aircraft model",
+    "credit": "Er-Jin Jang \u00b7 CC BY-SA 4.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Cessna_172S.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "HIGH-WING LIGHT AIRCRAFT",
+    "width": 960,
+    "height": 356,
+    "bounds": [
+      0,
+      0,
+      960,
+      356
+    ]
+  },
+  "class_single_low": {
+    "asset": "/media/piper-profile.png",
+    "kind": "illustration",
+    "alt": "Representative low-wing light aircraft illustration; not the exact aircraft model",
+    "credit": "Kaboldy \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Piper_Cherokee.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "LOW-WING LIGHT AIRCRAFT",
+    "width": 920,
+    "height": 400,
+    "bounds": [
+      18,
+      17,
+      877,
+      383
+    ]
+  },
+  "class_twin_prop": {
+    "asset": "/media/twinprop-profile.png",
+    "kind": "illustration",
+    "alt": "Representative light twin aircraft illustration; not the exact aircraft model",
+    "credit": "Beech Aircraft Corporation \u00b7 Public domain \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Beechcraft_D55_Baron_3-view_line_drawing.png",
+    "license": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "LIGHT TWIN AIRCRAFT",
+    "width": 1053,
+    "height": 450,
+    "bounds": [
+      35,
+      0,
+      1018,
+      420
+    ]
+  },
+  "class_turboprop": {
+    "asset": "/media/dash8-neutral-profile.png",
+    "kind": "illustration",
+    "alt": "Clean unbranded Dash 8 Q400 type illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted repaint of Newresid\u2019s Dash8web illustration \u00b7 CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dash8web.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Aircraft-class illustration; exact model may differ.",
+    "label": "TWIN TURBOPROP AIRCRAFT",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      19,
+      72,
+      2152,
+      583
+    ]
+  },
+  "class_regional": {
+    "kind": "illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted E195-E2 profile illustration, generated from an aircraft reference",
+    "source": "Flight Desk artwork; Porter livery reference: https://www.eztoys.com/porter-airlines-e195-e2-c-gkql-new-mould-geminijets-gjpoe2198-scale-1-400.html",
+    "license": "Project-generated representative artwork; Porter branding belongs to Porter Airlines.",
+    "description": "Aircraft-class illustration; the model and livery may differ from this flight.",
+    "asset": "/media/e195-e2-neutral-profile.png",
+    "alt": "Representative regional jet illustration; exact model may differ",
+    "label": "REGIONAL JET AIRLINER",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      29,
+      89,
+      2104,
+      588
+    ]
+  },
+  "class_narrow": {
+    "asset": "/media/b738-profile.png",
+    "kind": "illustration",
+    "alt": "Representative jet airliner illustration; not the exact aircraft model",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "JET AIRLINER",
+    "width": 850,
+    "height": 261,
+    "bounds": [
+      0,
+      0,
+      850,
+      261
+    ]
+  },
+  "class_wide_twin": {
+    "asset": "/media/widebody-profile.png",
+    "kind": "illustration",
+    "alt": "Representative wide-body airliner illustration; not the exact aircraft model",
+    "credit": "Julien.scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_787-800_Dreamliner_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "WIDE-BODY AIRLINER",
+    "width": 610,
+    "height": 190,
+    "bounds": [
+      3,
+      6,
+      607,
+      184
+    ]
+  },
+  "class_wide_quad": {
+    "asset": "/media/widebody-profile.png",
+    "kind": "illustration",
+    "alt": "Representative wide-body airliner illustration; not the exact aircraft model",
+    "credit": "Julien.scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_787-800_Dreamliner_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "WIDE-BODY AIRLINER",
+    "width": 610,
+    "height": 190,
+    "bounds": [
+      3,
+      6,
+      607,
+      184
+    ]
+  },
+  "class_bizjet": {
+    "asset": "/media/businessjet-profile.png",
+    "kind": "illustration",
+    "alt": "Representative Learjet-style business jet side-profile illustration",
+    "credit": "NASA \u00b7 public domain \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Learjet_24_3-View_line_art.gif",
+    "license": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "label": "BUSINESS JET",
+    "description": "Aircraft-class illustration; the exact model may differ.",
+    "width": 1100,
+    "height": 325,
+    "bounds": [
+      5,
+      0,
+      1091,
+      325
+    ]
+  },
+  "class_helicopter": {
+    "asset": "/media/helicopter-profile.png",
+    "kind": "illustration",
+    "alt": "Representative helicopter illustration; not the exact aircraft model",
+    "credit": "MakiSumo34 \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized and recoloured for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Helicopter_green_icon.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Aircraft-class illustration; the depicted model and livery may differ from this flight.",
+    "label": "HELICOPTER",
+    "width": 760,
+    "height": 450,
+    "bounds": [
+      0,
+      0,
+      760,
+      450
+    ]
+  },
+  "B788": {
+    "asset": "/media/widebody-profile.png",
+    "kind": "illustration",
+    "alt": "Boeing 787-8 \u2014 type illustration",
+    "credit": "Julien.scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_787-800_Dreamliner_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Representative illustration; not the actual registration or airline livery.",
+    "label": "WIDE-BODY AIRLINER",
+    "width": 610,
+    "height": 190,
+    "bounds": [
+      3,
+      6,
+      607,
+      184
+    ]
+  },
+  "BE55": {
+    "asset": "/media/twinprop-profile.png",
+    "kind": "illustration",
+    "alt": "Beechcraft D55 Baron \u2014 type illustration",
+    "credit": "Beech Aircraft Corporation \u00b7 Public domain \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Beechcraft_D55_Baron_3-view_line_drawing.png",
+    "license": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "description": "Representative illustration; not the actual registration or airline livery.",
+    "label": "LIGHT TWIN AIRCRAFT",
+    "width": 1053,
+    "height": 450,
+    "bounds": [
+      35,
+      0,
+      1018,
+      420
+    ]
+  },
+  "DH8D": {
+    "asset": "/media/dash8-neutral-profile.png",
+    "kind": "illustration",
+    "alt": "Clean unbranded Dash 8 Q400 type illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted repaint of Newresid\u2019s Dash8web illustration \u00b7 CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dash8web.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Representative illustration; not the actual registration or airline livery.",
+    "label": "TWIN TURBOPROP AIRCRAFT",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      19,
+      72,
+      2152,
+      583
+    ]
+  },
+  "DEFAULT": {
+    "asset": "/media/default-aircraft.png",
+    "kind": "illustration",
+    "alt": "Representative jet aircraft illustration",
+    "credit": "Julien Scavini \u00b7 CC BY-SA 3.0 \u00b7 cropped/resized for Flight Desk",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A32X_family_v1.0.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Default aircraft illustration; not a depiction of this specific aircraft type.",
+    "label": "AIRCRAFT ILLUSTRATION",
+    "width": 813,
+    "height": 256,
+    "bounds": [
+      0,
+      0,
+      813,
+      256
+    ]
+  },
+  "POE_DH8D": {
+    "asset": "/media/porter-dash8-profile.png",
+    "kind": "illustration",
+    "alt": "Dash 8 Q400 in Porter Airlines livery \u00b7 representative illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted repaint of Newresid\u2019s Dash8web illustration \u00b7 CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dash8web.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Representative Porter livery illustration, not the exact observed registration.",
+    "label": "PORTER \u00b7 DASH 8 Q400",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      0,
+      67,
+      2172,
+      592
+    ]
+  },
+  "E295": {
+    "kind": "illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted E195-E2 profile illustration, generated from an aircraft reference",
+    "source": "Flight Desk artwork; Porter livery reference: https://www.eztoys.com/porter-airlines-e195-e2-c-gkql-new-mould-geminijets-gjpoe2198-scale-1-400.html",
+    "license": "Project-generated representative artwork; Porter branding belongs to Porter Airlines.",
+    "description": "Representative illustration, not a photograph of the observed registration.",
+    "asset": "/media/e195-e2-neutral-profile.png",
+    "alt": "Embraer E195-E2 in plain neutral colours \u00b7 type illustration",
+    "label": "REGIONAL JET AIRLINER",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      29,
+      89,
+      2104,
+      588
+    ]
+  },
+  "POE_E295": {
+    "kind": "illustration",
+    "credit": "Flight Desk \u00b7 AI-assisted E195-E2 profile illustration, generated from an aircraft reference",
+    "source": "Flight Desk artwork; Porter livery reference: https://www.eztoys.com/porter-airlines-e195-e2-c-gkql-new-mould-geminijets-gjpoe2198-scale-1-400.html",
+    "license": "Project-generated representative artwork; Porter branding belongs to Porter Airlines.",
+    "description": "Representative illustration, not a photograph of the observed registration.",
+    "asset": "/media/porter-e195-e2-profile.png",
+    "alt": "Embraer E195-E2 in Porter Airlines livery \u00b7 representative illustration",
+    "label": "PORTER \u00b7 E195-E2",
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      24,
+      81,
+      2124,
+      574
+    ]
+  }
+}
